@@ -1,0 +1,42 @@
+export const experiments = [
+  {
+    id: '01',
+    title: '3D Experiments',
+    subtitle: 'FORM / MATERIAL / LIGHT',
+    color: '#b3d3e3',
+    description: '以形体、材质与光建立新的空间语言。THE CORE 是这里的第一个完整实验。',
+    status: 'THE CORE · AVAILABLE',
+  },
+  {
+    id: '02',
+    title: 'Generative Art',
+    subtitle: 'RULES BECOME ORGANISMS',
+    color: '#d3ac78',
+    description: '从简单规则生长出复杂形态。光学螺旋是这一实验方向的空间标记；独立作品正在酝酿。',
+    status: 'SPECIMEN · IN DEVELOPMENT',
+  },
+  {
+    id: '03',
+    title: 'Interactive Worlds',
+    subtitle: 'SPACE AS AN INTERFACE',
+    color: '#a4c8d4',
+    description: '探索可以回应人的微型世界。当前可观察空间标本，完整世界将在后续实验中展开。',
+    status: 'SPECIMEN · IN DEVELOPMENT',
+  },
+  {
+    id: '04',
+    title: 'Motion Studies',
+    subtitle: 'THE SHAPE OF TIME',
+    color: '#d6a897',
+    description: '研究惯性、延迟、节奏与运动的情绪。当前展示运动标本，独立交互研究尚未发布。',
+    status: 'SPECIMEN · IN DEVELOPMENT',
+  },
+  {
+    id: '05',
+    title: 'Future Experiments',
+    subtitle: 'ROOM FOR THE UNKNOWN',
+    color: '#c4c1dc',
+    description: '留给尚未命名的想法。一块有意保留的空白，也是一切新实验的起点。',
+    status: 'OPEN POSSIBILITY',
+  },
+] as const;
